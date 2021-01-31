@@ -1,24 +1,30 @@
-# README
+## 0.リポジトリをクローン
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+cd ~/docker
+git clone git@github.com:shiorina/message-board.git
+```
 
-Things you may want to cover:
+## 1.作業ディレクトリに移動する
 
-* Ruby version
+```
+cd ~/docker/message-board
+```
 
-* System dependencies
+## 2.Docker起動
 
-* Configuration
+```
+docker-compose up --build
+```
 
-* Database creation
+## Docker停止
+Ctr + c
 
-* Database initialization
+```
+docker-compose down
+```
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+
