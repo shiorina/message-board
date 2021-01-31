@@ -4,6 +4,11 @@
 cd ~/docker
 git clone git@github.com:shiorina/message-board.git
 ```
+もしくは
+
+```
+git clone https://github.com/shiorina/message-board.git
+```
 
 ## 1.作業ディレクトリに移動する
 
