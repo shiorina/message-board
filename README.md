@@ -49,6 +49,14 @@ docker-compose exec app bundle install
 の後に続ける
 
 
+# gitコマンド
+
+## リモートの変更を落としてくる
+
+```
+git pull origin master
+```
+
 
 
 
